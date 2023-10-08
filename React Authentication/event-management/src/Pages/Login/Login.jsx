@@ -1,19 +1,26 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Context/AuthProvider";
 import Swal from "sweetalert2";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const { googleSingIn, logIn } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(email, password);
 
     logIn(email, password)
-      .then((res) => {
-        console.log(res.user);
+      .then(() => {
+        Swal.fire({
+          icon: "success",
+          title: "Great..",
+          text: "Log in Successfully!",
+        });
+        navigate(location?.state ? location?.state : "/");
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -30,24 +37,21 @@ const Login = () => {
             title: "Oops...",
             text: "User not Found,please check your mail again!",
           });
-        } else {
-          Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: errorMessage,
-          });
         }
-        console.log("login error", error.message);
       });
   };
 
   const handleGoogleSignIn = () => {
     googleSingIn()
-      .then((res) => {
-        console.log(res.user);
+      .then(() => {
+        Swal.fire({
+          icon: "success",
+          title: "Great..",
+          text: "Log in Successfully!",
+        });
       })
       .catch((error) => {
-        console.log(error.code);
+        Swal.fire({ icon: "error", title: "Oops...", text: error.message });
       });
   };
 

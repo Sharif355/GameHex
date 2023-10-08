@@ -11,14 +11,16 @@ import {
 } from "firebase/auth";
 import auth from "../Firebase/Firebase.config";
 
-export const AuthContext = createContext();
+export const AuthContext = createContext(null);
 
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   const googleProvider = new GoogleAuthProvider();
 
   const signUp = (email, password) => {
+    setLoading(true);
     return createUserWithEmailAndPassword(auth, email, password);
   };
 
@@ -27,23 +29,25 @@ const AuthProvider = ({ children }) => {
   };
 
   const googleSingIn = () => {
+    setLoading(true);
     return signInWithPopup(auth, googleProvider);
   };
 
   const logOut = () => {
+    setLoading(true);
     return signOut(auth);
   };
 
   useEffect(() => {
     const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
-        console.log("onAuthStatechange theke", currentUser);
         setUser(currentUser);
+        setLoading(false);
       } else {
         setUser(null);
+        setLoading(false);
       }
     });
-
     return () => {
       unSubscribe();
     };
@@ -55,6 +59,7 @@ const AuthProvider = ({ children }) => {
     logOut,
     signUp,
     logIn,
+    loading,
   };
 
   return (
