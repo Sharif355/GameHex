@@ -10,18 +10,51 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink className=" font-medium text-lg" to="/">
+        <NavLink
+          style={({ isActive, isPending }) => {
+            return {
+              fontWeight: isActive ? "bold" : "",
+              background: isActive
+                ? "linear-gradient(to right, #3B82F6, #9333EA)"
+                : "",
+              color: isPending ? "pink" : "",
+            };
+          }}
+          to="/"
+        >
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink className="font-medium text-lg" to="/blogs">
-          Blogs
+        <NavLink
+          style={({ isActive, isPending }) => {
+            return {
+              fontWeight: isActive ? "bold" : "",
+              background: isActive
+                ? "linear-gradient(to right, #3B82F6, #9333EA)"
+                : "",
+              color: isPending ? "pink" : "",
+            };
+          }}
+          to="/booking"
+        >
+          Booking
         </NavLink>
       </li>
       <li>
-        <NavLink className=" font-medium text-lg" to="/streamers">
-          Top Streamers
+        <NavLink
+          style={({ isActive, isPending }) => {
+            return {
+              fontWeight: isActive ? "bold" : "",
+              background: isActive
+                ? "linear-gradient(to right, #3B82F6, #9333EA)"
+                : "",
+              color: isPending ? "pink" : "",
+            };
+          }}
+          to="/blogs"
+        >
+          Blogs
         </NavLink>
       </li>
     </>
@@ -45,6 +78,21 @@ const Navbar = () => {
     <div>
       <div className="navbar bg-base-100">
         <div className="navbar-center md:navbar-start mr-3">
+          <div className="flex items-center gap-2">
+            <img
+              className="w-16"
+              src="https://i.ibb.co/YtqYcXm/Gaming-logo-template-on-transparent-background-PNG-removebg-preview.png"
+              alt=""
+            />
+            <p className="text-3xl font-bold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text">
+              GAMEHEX
+            </p>
+          </div>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">{navLinks}</ul>
+        </div>
+        <div className="navbar-end">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -67,23 +115,11 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {navLinks}
+              <Link className="pl-3" to="/login">
+                Login
+              </Link>
             </ul>
           </div>
-          <div className="flex items-center gap-2">
-            <img
-              className="w-16"
-              src="https://i.ibb.co/YtqYcXm/Gaming-logo-template-on-transparent-background-PNG-removebg-preview.png"
-              alt=""
-            />
-            <p className="text-3xl font-bold  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text">
-              GAMEHEX
-            </p>
-          </div>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navLinks}</ul>
-        </div>
-        <div className="navbar-end">
           {user ? (
             <div className="flex gap-2">
               <div className="flex items-center gap-1">
@@ -99,7 +135,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link to="/login">
-              <button className="btn normal-case bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white  ">
+              <button className="btn normal-case bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white hidden md:flex  ">
                 Login
               </button>
             </Link>

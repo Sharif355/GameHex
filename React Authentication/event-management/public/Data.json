@@ -5,7 +5,14 @@
         "image": "https://i.ibb.co/SQTwR0k/GameFest.png",
         "price": "$4900",
         "short_description": "Experience the ultimate gaming extravaganza with GameFest 2023. Our event management team specializes in organizing various GameFests.",
-        "details_description": "GameFest 2023 is the crown jewel among our GameFest series, meticulously organized by our event management experts. Gamers from every corner of the globe gather to celebrate their shared passion for gaming. From blockbuster AAA titles to indie gems, you'll discover an incredible array of gaming experiences. "
+        "details_description": "To host, arrange, and manage your GameFests, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing GameFests. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable GameFests that bring the gaming community together. ",
+        "why_choose_us":"Why Choose GameHex for Your GameFests:",
+        "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed GameFests.",
+        "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+        "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+        "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your GameFests is executed to perfection",
+        "communityBuilding": "Our GameFests are designed not only to entertain but also to build a strong gaming community",
+        "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative GameFests"
     },
     {
       "id": 2,
@@ -13,7 +20,14 @@
       "image": "https://i.ibb.co/vHgkZz7/Fixelicon.png",
       "price": "$3989.99",
       "short_description": "PixelCon is a gaming convention dedicated to pixel art and retro gaming. Explore the world of classic games and pixelated artistry.",
-      "details_description": "Step back in time at PixelCon, where pixels rule the day. This unique gaming convention celebrates the art of pixelated graphics and retro gameplay.Organize competition of Retro Games like 'Pac-Man','Super-Mario','Donkey-Kong' . Dive into a world of nostalgia as you relive the golden age of gaming. Discover the magic of pixel artistry through workshops and exhibitions. It's a must-visit for any retro gaming enthusiast!"
+      "details_description": "To host, arrange, and manage your PixelCon, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing GameFests. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable PixelCon that bring the gaming community together. ",
+      "why_choose_us":"Why Choose GameHex for Your PixelCon:",
+      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed GameFests.",
+      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your GameFests is executed to perfection",
+      "communityBuilding": "Our GameFests are designed not only to entertain but also to build a strong gaming community",
+      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative GameFests"
     },
     {
       "id": 3,
@@ -21,7 +35,14 @@
       "image": "https://i.ibb.co/ymzqZCG/E-Sports.png",
       "price": "$50139.99",
       "short_description": "In the Era of eSports we are here to help you Organize different types of eSports event's like Valorant, CS:GO,FiFa,WWE2k23 etc.",
-      "details_description": "The eSports Championship is where legends are born. Whether you're a seasoned pro or a rising star, this convention is your arena. Battle it out in various eSports titles and prove your skills. Spectate thrilling matches and meet your favorite eSports idols. Join us for an unforgettable championship experience!"
+      "details_description": "To host, arrange, and manage your eSports Championship, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing eSports. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable eSports that bring the gaming community together. ",
+        "why_choose_us":"Why Choose GameHex for Your eSports Championship:",
+        "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed GameFests.",
+        "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+        "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+        "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your eSports is executed to perfection",
+        "communityBuilding": "Our eSports Championship are designed not only to entertain but also to build a strong gaming community",
+        "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative GameFests"
     },
     {
       "id": 4,
@@ -29,7 +50,14 @@
       "image": "https://i.ibb.co/rKhFxWX/FPS-Gaming.jpg",
       "short_description": "Experience the adrenaline of first-person shooters at FPS Showdown. Organize the best FPS Gaming events of your choices.", 
       "price": "$6099.99",
-      "details_description": "FPS Showdown is where FPS enthusiasts gather for heart-pounding action. Challenge your reflexes and precision in intense first-person shooter battles. Try out the latest FPS titles and compete against skilled opponents. Whether you're a casual player or a competitive gamer, FPS Showdown has something for you. Get ready for a showdown like no other!"
+      "details_description": "To host, arrange, and manage your FPS Showdown, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing FPS Showdown. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable FPS Showdown that bring the gaming community together. ",
+        "why_choose_us":"Why Choose GameHex for Your FPS Showdown:",
+        "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed FPS Showdown.",
+        "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+        "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+        "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your FPS Showdown is executed to perfection",
+        "communityBuilding": "Our FPS Showdown are designed not only to entertain but also to build a strong gaming community",
+        "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative FPS Showdown"
     },
     {
       "id": 5,
@@ -37,7 +65,14 @@
       "image": "https://i.ibb.co/7R91sfL/VR-Gaming.png",
       "short_description": "Experience the future of gaming at VR World Summit. Organize different VR Gaming events, Seminar on VR Gaming etc.",
       "price": "$49139.99",
-      "details_description": "VR World Summit is your gateway to the future of gaming. Immerse yourself in virtual reality like never before. Test the latest VR hardware and explore breathtaking virtual worlds. Attend workshops on VR game development and discover the potential of this exciting technology. Join us on this journey into the realms of VR gaming!"
+      "details_description": "To host, arrange, and manage your VR World Summit, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing VR World Summit. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable VR World Summit that bring the gaming community together. ",
+      "why_choose_us":"Why Choose GameHex for Your VR World Summit:",
+      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed VR World Summit.",
+      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your VR World Summit is executed to perfection",
+      "communityBuilding": "Our VR World Summit are designed not only to entertain but also to build a strong gaming community",
+      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative VR World Summit"
     },
     {
       "id": 6,
@@ -45,7 +80,14 @@
       "image": "https://i.ibb.co/5xq2Lyw/GameDev.png",
       "price": "$3900.99",
       "short_description": "Explore the world of game development at GameDev Expo. Organize the various Expo about GameDev.",
-      "details_description": "GameDev Expo is your gateway to the world of game development. Dive into the art and science of creating games. Organize workshops led by industry experts and gain valuable insights into game design, programming, and storytelling. Whether you're an aspiring game developer or a seasoned pro, GameDev Expo is the place to be to nurture your passion for game development!"
+      "details_description": "To host, arrange, and manage your GameDev Expo, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing GameDev Expo. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable GameDev Expo that bring the gaming community together. ",
+      "why_choose_us":"Why Choose GameHex for Your GameDev Expo:",
+      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed GameDev Expo.",
+      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your GameDev Expo is executed to perfection",
+      "communityBuilding": "Our GameDev Expo are designed not only to entertain but also to build a strong gaming community",
+      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative GameDev Expo"
      
     },
     {
@@ -54,7 +96,14 @@
       "image": "https://i.ibb.co/ct7MGrK/Strategy.png",
       "price": "$4900.99",
       "short_description": "Test your strategic prowess at the Strategy Game Expo. Compete in strategy game tournaments and master the art of tactics.",
-      "details_description": "The Strategy Game Expo is a haven for strategic thinkers. Engage in intense battles of wits as you compete in strategy game tournaments. Learn from top strategy game players and refine your tactical skills. Discover the depth and complexity of strategy games in an immersive environment. Join us for a mind-bending experience!"
+      "details_description": "To host, arrange, and manage your Strategy Game Expo, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing Strategy Game Expo. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable Strategy Game Expo that bring the gaming community together. ",
+      "why_choose_us":"Why Choose GameHex for Your GameFStrategy Game Expo:",
+      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed GameFests.",
+      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your Strategy Game Expo is executed to perfection",
+      "communityBuilding": "Our Strategy Game Expo are designed not only to entertain but also to build a strong gaming community",
+      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative Strategy Game Expo"
     },
     {
       "id": 8,
@@ -62,7 +111,14 @@
       "image": "https://i.ibb.co/KsxqhQP/Gamer-s-Fair.jpg",
       "price": "$4444.99",
       "short_description": " Organize a gaming convention like Gamer's Fair. Call Game Developers, streamers, and gamers to celebrate their passion for gaming.",
-      "details_description": "Gamer's Fair is a celebration of all things gaming. From AAA titles to indie gems, you'll find it all here. Meet your favorite streamers, participate in cosplay contests, and attend panel discussions with industry experts. Don't miss out on this epic event!Connect with fellow gamers and share your love for gaming. It's a gamer's paradise!"
+      "details_description": "To host, arrange, and manage your Gamer's Fair, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing Gamer's Fair. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable Gamer's Fair that bring the gaming community together. ",
+      "why_choose_us":"Why Choose GameHex for Your Gamer's Fair:",
+      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed Gamer's Fair.",
+      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your Gamer's Fair is executed to perfection",
+      "communityBuilding": "Our Gamer's Fair are designed not only to entertain but also to build a strong gaming community",
+      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative Gamer's Fair"
     },
     {
       "id": 9,
@@ -70,7 +126,14 @@
       "image": "https://i.ibb.co/HF2chZX/indie.png",
       "price": "$2900.99",
       "short_description": "Discover the world of indie gaming at the Indie Game Expo. Play unique and innovative indie games created by talented developers.",
-      "details_description": "Indulge your indie game cravings at the Indie Game Expo. This convention celebrates the creativity and innovation of indie game developers. Immerse yourself in a world of unique and captivating indie games. Meet the developers behind these gems and gain insight into their creative process. It's a showcase of gaming's hidden treasures!"
+      "details_description": "To host, arrange, and manage your Indie Game Expo, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing Indie Game Expo. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable Indie Game Expo that bring the gaming community together. ",
+        "why_choose_us":"Why Choose GameHex for Your Indie Game Expo:",
+        "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed Indie Game Expo.",
+        "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+        "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+        "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your Indie Game Expo is executed to perfection",
+        "communityBuilding": "Our Indie Game Expo are designed not only to entertain but also to build a strong gaming community",
+        "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative Indie Game Expo"
     },
     {
       "id": 10,
@@ -78,7 +141,14 @@
       "image": "https://i.ibb.co/472N39f/REtro-Gamingsssdf.png",
       "price": "$3489.99",
       "short_description": "RetroCon is a celebration of all things retro gaming. Relive the classics, collect vintage games, and connect with fellow retro enthusiasts.",
-      "details_description": "RetroCon takes you on a nostalgic journey through the history of gaming. Dust off your old consoles and join us for a trip down memory lane. Browse a vast collection of vintage games and consoles. Swap stories with fellow retro gamers and share your love for the classics. It's a blast from the past you won't want to miss!"
+      "details_description": "To host, arrange, and manage your RetroCon, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing RetroCon. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable RetroCon that bring the gaming community together. ",
+      "why_choose_us":"Why Choose GameHex for Your RetroCon:",
+      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed RetroCon.",
+      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
+      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
+      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your RetroCon is executed to perfection",
+      "communityBuilding": "Our RetroCon are designed not only to entertain but also to build a strong gaming community",
+      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative RetroCon"
     }
   ]
   

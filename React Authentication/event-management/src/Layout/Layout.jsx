@@ -4,7 +4,7 @@ import Footer from "../Shared/Footer/Footer";
 
 const Layout = () => {
   return (
-    <div className="max-w-screen-xl mx-auto font-inter">
+    <div className="max-w-screen-xl mx-auto font-inter px-3">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>

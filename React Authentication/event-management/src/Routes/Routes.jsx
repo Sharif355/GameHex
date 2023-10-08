@@ -3,11 +3,11 @@ import Layout from "../Layout/Layout";
 import ErrorPage from "../Pages/Error/ErrorPage";
 import Home from "../Pages/Home/Home";
 import Blogs from "../Pages/Blogs/Blogs";
-import TopStreamers from "../Pages/Streamers/TopStreamers";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import ServiceDetails from "../Pages/Home/ServiceDetails";
 import PrivateRoutes from "./PrivateRoutes";
+import Booking from "../Pages/Home/Booking";
 
 const router = createBrowserRouter([
   {
@@ -31,11 +31,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/blogs",
-        element: <Blogs />,
-      },
-      {
-        path: "/streamers",
-        element: <TopStreamers />,
+        element: (
+          <PrivateRoutes>
+            <Blogs></Blogs>
+          </PrivateRoutes>
+        ),
       },
       {
         path: "/login",
@@ -44,6 +44,14 @@ const router = createBrowserRouter([
       {
         path: "/signUp",
         element: <SignUp></SignUp>,
+      },
+      {
+        path: "/booking",
+        element: (
+          <PrivateRoutes>
+            <Booking></Booking>
+          </PrivateRoutes>
+        ),
       },
     ],
   },
