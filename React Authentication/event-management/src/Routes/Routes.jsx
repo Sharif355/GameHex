@@ -8,6 +8,7 @@ import SignUp from "../Pages/SignUp/SignUp";
 import ServiceDetails from "../Pages/Home/ServiceDetails";
 import PrivateRoutes from "./PrivateRoutes";
 import Booking from "../Pages/Home/Booking";
+import BlogsCardDetails from "../Pages/Blogs/BlogsCardDetails";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
             <Blogs></Blogs>
           </PrivateRoutes>
         ),
+        loader: () => fetch("/public/Blog.json"),
       },
       {
         path: "/login",
@@ -52,6 +54,11 @@ const router = createBrowserRouter([
             <Booking></Booking>
           </PrivateRoutes>
         ),
+      },
+      {
+        path: "/blogs/:id",
+        element: <BlogsCardDetails></BlogsCardDetails>,
+        loader: () => fetch("/public/Blog.json"),
       },
     ],
   },
