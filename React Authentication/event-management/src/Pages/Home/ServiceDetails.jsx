@@ -6,7 +6,6 @@ const ServiceDetails = () => {
   const loadedData = useLoaderData();
 
   const findData = loadedData.find((data) => data.id == id);
-  console.log(findData);
 
   return (
     <div className="space-y-3 card">

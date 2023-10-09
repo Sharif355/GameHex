@@ -6,7 +6,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 const Login = () => {
   const { googleSingIn, logIn } = useContext(AuthContext);
   const location = useLocation();
-  console.log("login theke ashci", location.state);
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -97,17 +96,17 @@ const Login = () => {
             </a>
           </p>
           <hr className="my-5" />
-          <div className="flex  justify-center">
-            <button onClick={handleGoogleSignIn} className="btn rounded-2xl">
-              <img
-                className="w-10"
-                src="https://i.ibb.co/wKShrTB/7123025-logo-google-g-icon.png"
-                alt=""
-              />
-              Continue With Google
-            </button>
-          </div>
         </form>
+        <div className="flex  justify-center">
+          <button onClick={handleGoogleSignIn} className="btn rounded-2xl">
+            <img
+              className="w-10"
+              src="https://i.ibb.co/wKShrTB/7123025-logo-google-g-icon.png"
+              alt=""
+            />
+            Continue With Google
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("/public/Data.json"),
+        loader: () => fetch("/Data.json"),
       },
       {
         path: "/services/:id",
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
             <ServiceDetails></ServiceDetails>
           </PrivateRoutes>
         ),
-        loader: () => fetch("/public/Data.json"),
+        loader: () => fetch("/Data.json"),
       },
       {
         path: "/blogs",
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
             <Blogs></Blogs>
           </PrivateRoutes>
         ),
-        loader: () => fetch("/public/Blog.json"),
+        loader: () => fetch("/Blog.json"),
       },
       {
         path: "/login",
@@ -58,7 +58,7 @@ const router = createBrowserRouter([
       {
         path: "/blogs/:id",
         element: <BlogsCardDetails></BlogsCardDetails>,
-        loader: () => fetch("/public/Blog.json"),
+        loader: () => fetch("/Blog.json"),
       },
     ],
   },

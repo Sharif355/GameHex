@@ -3,6 +3,7 @@ import BlogsCard from "./BlogsCard";
 
 const Blogs = () => {
   const loadData = useLoaderData();
+  console.log(loadData);
 
   return (
     <div className="my-10 space-y-5">

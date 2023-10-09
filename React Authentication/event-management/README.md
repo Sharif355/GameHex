@@ -2,7 +2,7 @@
 
 - This is a simple event management system for arranging events and managing them. Here i have used React, React Router , React hooks, Tailwind Css, Material UI and also used Firebase for authentication and hosting.
 
-## Live Link: [GameHex](https://gamehex.netlify.app/)
+## Live Link: [GameHex](https://65240da1ec6a7c0587350943--dapper-squirrel-35f717.netlify.app/)
 
 ## Features
 
