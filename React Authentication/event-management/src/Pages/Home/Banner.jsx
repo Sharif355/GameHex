@@ -1,7 +1,16 @@
 import { FaCalendarAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      easing: "ease-in-out", // Animation timing function
+    });
+  }, []);
   return (
     <div className=" mx-auto my-20 flex flex-col lg:flex-row items-center justify-between bg-slate-50  ">
       <div className="w-full">
@@ -28,8 +37,11 @@ const Banner = () => {
               </p>
               <Link to="/booking">
                 <button className="flex items-center mt-5 gap-2 btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
-                  <FaCalendarAlt className="inline"></FaCalendarAlt> Book Your
-                  Date
+                  <FaCalendarAlt
+                    data-aos="zoom-in"
+                    className="inline"
+                  ></FaCalendarAlt>{" "}
+                  Book Your Date
                 </button>
               </Link>
             </div>
