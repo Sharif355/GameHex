@@ -89,66 +89,6 @@
       "communityBuilding": "Our GameDev Expo are designed not only to entertain but also to build a strong gaming community",
       "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative GameDev Expo"
      
-    },
-    {
-      "id": 7,
-      "name": "Strategy Game Expo",
-      "image": "https://i.ibb.co/ct7MGrK/Strategy.png",
-      "price": "$4900.99",
-      "short_description": "Test your strategic prowess at the Strategy Game Expo. Compete in strategy game tournaments and master the art of tactics.",
-      "details_description": "To host, arrange, and manage your Strategy Game Expo, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing Strategy Game Expo. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable Strategy Game Expo that bring the gaming community together. ",
-      "why_choose_us":"Why Choose GameHex for Your GameFStrategy Game Expo:",
-      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed GameFests.",
-      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
-      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
-      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your Strategy Game Expo is executed to perfection",
-      "communityBuilding": "Our Strategy Game Expo are designed not only to entertain but also to build a strong gaming community",
-      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative Strategy Game Expo"
-    },
-    {
-      "id": 8,
-      "name": " Gamer's Fair",
-      "image": "https://i.ibb.co/KsxqhQP/Gamer-s-Fair.jpg",
-      "price": "$4444.99",
-      "short_description": " Organize a gaming convention like Gamer's Fair. Call Game Developers, streamers, and gamers to celebrate their passion for gaming.",
-      "details_description": "To host, arrange, and manage your Gamer's Fair, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing Gamer's Fair. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable Gamer's Fair that bring the gaming community together. ",
-      "why_choose_us":"Why Choose GameHex for Your Gamer's Fair:",
-      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed Gamer's Fair.",
-      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
-      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
-      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your Gamer's Fair is executed to perfection",
-      "communityBuilding": "Our Gamer's Fair are designed not only to entertain but also to build a strong gaming community",
-      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative Gamer's Fair"
-    },
-    {
-      "id": 9,
-       "name": "Indie Game Expo",
-      "image": "https://i.ibb.co/HF2chZX/indie.png",
-      "price": "$2900.99",
-      "short_description": "Discover the world of indie gaming at the Indie Game Expo. Play unique and innovative indie games created by talented developers.",
-      "details_description": "To host, arrange, and manage your Indie Game Expo, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing Indie Game Expo. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable Indie Game Expo that bring the gaming community together. ",
-        "why_choose_us":"Why Choose GameHex for Your Indie Game Expo:",
-        "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed Indie Game Expo.",
-        "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
-        "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
-        "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your Indie Game Expo is executed to perfection",
-        "communityBuilding": "Our Indie Game Expo are designed not only to entertain but also to build a strong gaming community",
-        "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative Indie Game Expo"
-    },
-    {
-      "id": 10,
-       "name": "RetroCon",
-      "image": "https://i.ibb.co/472N39f/REtro-Gamingsssdf.png",
-      "price": "$3489.99",
-      "short_description": "RetroCon is a celebration of all things retro gaming. Relive the classics, collect vintage games, and connect with fellow retro enthusiasts.",
-      "details_description": "To host, arrange, and manage your RetroCon, GameHex is your best partner!GameHex is your trusted event management company specializing in organizing and overseeing RetroCon. We're here to make your gaming events a resounding success. With our expertise in event planning and management, you can expect seamless and memorable RetroCon that bring the gaming community together. ",
-      "why_choose_us":"Why Choose GameHex for Your RetroCon:",
-      "experience": "With years of experience in event management, we know what it takes to create engaging and well-executed RetroCon.",
-      "diverseServices": "From event planning and logistics to marketing and on-site management, we offer a comprehensive suite of services tailored to your unique needs",
-      "passionForGaming": "We share your passion for gaming and understand the needs of the gaming community",
-      "attentionToDetail": "We leave no stone unturned in ensuring that every aspect of your RetroCon is executed to perfection",
-      "communityBuilding": "Our RetroCon are designed not only to entertain but also to build a strong gaming community",
-      "innovation": "We stay updated with the latest trends in gaming and event technology to deliver innovative RetroCon"
     }
   ]
   
