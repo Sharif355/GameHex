@@ -9,7 +9,7 @@ const Review = () => {
           GameHex
         </span>
       </h1>
-      <div className="flex flex-col md:flex-col lg:flex-row gap-3">
+      <div className="flex flex-col md:flex-col lg:flex-row gap-3 justify-center items-center">
         <div className="relative shadow-lg flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 p-2 my-10">
           <div className="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
             <img

@@ -93,6 +93,26 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
+          {user ? (
+            <div className="flex gap-2">
+              <div className="flex items-center gap-1">
+                <img className="w-10 rounded-full" src={user.photoURL} alt="" />{" "}
+                <p>{user.displayName}</p>
+              </div>
+              <button
+                onClick={handleLogOut}
+                className="btn normal-case bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white  "
+              >
+                Sign Out
+              </button>
+            </div>
+          ) : (
+            <Link to="/login">
+              <button className="btn normal-case bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white hidden md:flex  ">
+                Login
+              </button>
+            </Link>
+          )}
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -120,26 +140,6 @@ const Navbar = () => {
               </Link>
             </ul>
           </div>
-          {user ? (
-            <div className="flex gap-2">
-              <div className="flex items-center gap-1">
-                <img className="w-10 rounded-full" src={user.photoURL} alt="" />{" "}
-                <p>{user.displayName}</p>
-              </div>
-              <button
-                onClick={handleLogOut}
-                className="btn normal-case bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white  "
-              >
-                Sign Out
-              </button>
-            </div>
-          ) : (
-            <Link to="/login">
-              <button className="btn normal-case bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white hidden md:flex  ">
-                Login
-              </button>
-            </Link>
-          )}
         </div>
       </div>
     </div>

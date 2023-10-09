@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className=" mx-auto my-20">
-      <div>
-        <div className="carousel w-full">
+    <div className=" mx-auto my-20 flex flex-col lg:flex-row items-center justify-between bg-slate-50  ">
+      <div className="w-full">
+        <div className=" w-full">
           <div
             id="item1"
-            className="carousel-item w-full flex flex-col lg:flex-row gap-2 justify-between"
+            className=" w-full flex flex-col lg:flex-row gap-2 justify-between"
           >
             <div className="w-full space-y-5">
               <h2 className="text-xl font-extrabold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text">
@@ -36,7 +36,12 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className="w-full">
+        <img
+          src="https://i.ibb.co/fD4Mrtn/Colorful-Process-Pie-Chart-removebg.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 };

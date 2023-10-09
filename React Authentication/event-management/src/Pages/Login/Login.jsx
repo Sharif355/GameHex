@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { AuthContext } from "../../Context/AuthProvider";
 import Swal from "sweetalert2";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -6,6 +6,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 const Login = () => {
   const { googleSingIn, logIn } = useContext(AuthContext);
   const location = useLocation();
+  console.log("login theke ashci", location.state);
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -20,24 +21,11 @@ const Login = () => {
           title: "Great..",
           text: "Log in Successfully!",
         });
-        navigate(location?.state ? location?.state : "/");
+        navigate(location?.state ? location.state : "/");
+        e.target.reset();
       })
       .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        if (errorCode === "auth/wrong-password") {
-          Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "Password does not match!",
-          });
-        } else if (errorCode === "auth/user-not-found") {
-          Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "User not Found,please check your mail again!",
-          });
-        }
+        Swal.fire({ icon: "error", title: "Oops...", text: error.message });
       });
   };
 

@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div>
-      <footer className=" flex flex-col footer-center  bg-slate-200 text-primary-content mt-20 py-5">
-        <div className="flex border w-full flex-col md:flex-row gap-2 items-center justify-around">
+      <footer className=" flex flex-col footer-center  w-full bg-slate-50  text-primary-content mt-20 py-5">
+        <div className="flex  w-full flex-col lg:flex-row gap-2 items-center justify-around">
           <div className="flex flex-col items-center">
             <div className="flex items-center gap-2">
               <img
@@ -27,9 +27,30 @@ const Footer = () => {
               </div>
             </nav>
           </div>
+          <div className="flex flex-col items-center">
+            <div className="flex items-center gap-2">
+              <p className="text-lg text-black font-semibold">Others</p>
+            </div>
+            <nav>
+              <div className="flex flex-col gap-2 text-black text-base text-left">
+                <p>
+                  <a href="#">Terms & Conditions</a>
+                </p>
+                <p>
+                  <a href="#">Privacy Policy</a>
+                </p>
+                <p>
+                  <a href="#">Contact Us</a>
+                </p>
+                <p>
+                  <a href="#">FAQ</a>
+                </p>
+              </div>
+            </nav>
+          </div>
           <div>
             <form>
-              <header className="footer-title text-black mt-4 text-center md:text-left">
+              <header className="footer-title text-black mt-4 text-center lg:text-left">
                 Newsletter
               </header>
               <fieldset className="form-control w-80">
